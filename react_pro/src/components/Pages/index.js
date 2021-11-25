@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import HeroSection from '../HeroSection'
+import InfoSection from '../InfoSection'
 import Navbar from '../navbar/Navbar'
 
 const Home = () => {
@@ -15,6 +16,7 @@ const toggle = () =>{
         
             <Navbar />
             <HeroSection />
+            <InfoSection />
             
         </>
     )
