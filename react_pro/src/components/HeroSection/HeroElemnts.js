@@ -49,9 +49,9 @@ export const HeroContainer = styled.div`
 
   export const HeroContent = styled.div`
    z-index: 3;
-   max-width: 1200px;
+   max-width: 12000px;
    position: absolute;
-   padding: 8px 24px;
+   padding: 290px 400px;
    display: flex;
    flex-direction: column;
    aling-items: center;
