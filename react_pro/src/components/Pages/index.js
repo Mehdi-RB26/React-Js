@@ -3,21 +3,23 @@ import Footer from '../Footer/index'
 import HeroSection from '../HeroSection'
 import InfoSection from '../InfoSection'
 import { homeObjOne, homeObjTwo, homeObjThree } from '../InfoSection/Data'
-import Navbar from '../navbar/Navbar'
 import Services from '../Services'
+import Navbar from '../navbar'
+import Sidebar from '../Sidebar'
 
 const Home = () => {
 
-/*const[isOpen, setIsOpen] = useState(false)
+const[isOpen, setIsOpen] = useState(false)
 
 const toggle = () =>{
     setIsOpen(!isOpen)
-}*/
+}
 
     return (
         <>
         
-            <Navbar />
+            <Sidebar isOpen={isOpen} toggle={toggle}/>
+            <Navbar toggle={toggle}/>
             <HeroSection />
             <InfoSection {...homeObjOne}/>
             <InfoSection {...homeObjTwo}/>
