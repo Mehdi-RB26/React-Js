@@ -3,6 +3,7 @@ import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, N
 import {FaBars} from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
+import app from '../../config/fire';
 
 
 const Navbar = ({ toggle}) => {
@@ -74,13 +75,13 @@ const Navbar = ({ toggle}) => {
                     </NavItem>
                 </NavMenu>
                 <NavBtn>
-                    <NavBtnLink to="/signin"
+                    <NavBtnLink to ="/login"
                     smooth={true}
                     duration={500}
                     spy={true}
                     exact='true'
                     offset={-80} 
-                    >Sign Un</NavBtnLink>
+                    >Log In</NavBtnLink>
                 </NavBtn>
             </NavbarContainer>
         </Nav>
