@@ -1,6 +1,9 @@
-import * as firebase from "firebase/app";
-import "firebase/auth";
+import firebase from 'firebase/app';
+import 'firebase/auth';
+import 'firebase/storage';
+import 'firebase/firestore';
 
+// Use your own configs!
 const app = firebase.initializeApp({
   apiKey: "AIzaSyAEx0hweJz5kk9stmv9w-63dudLSm_d2Qg",
   authDomain: "carauction-6ecea.firebaseapp.com",
@@ -11,4 +14,7 @@ const app = firebase.initializeApp({
   measurementId: "${config.measurementId}"
 });
 
-export default app;
+export const timestamp = firebase.firestore.FieldValue.serverTimestamp;
+export const firestoreApp = app.firestore();
+export const storageApp = app.storage();
+export const authApp = app.auth();
