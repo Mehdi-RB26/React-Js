@@ -11,6 +11,7 @@ const app = firebase.initializeApp({
   storageBucket: "carauction-6ecea.appspot.com",
   messagingSenderId: "993576992469",
   appId: "1:993576992469:web:d3078b8bbdf14b57df6c5c",
+  // eslint-disable-next-line
   measurementId: "${config.measurementId}"
 });
 

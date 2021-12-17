@@ -5,19 +5,20 @@ import { useFirestore } from '../hooks/useFirestore';
 import { AddAuction } from './AddAuction';
 import { AuctionCard } from './AuctionCard';
 import { ProgressBar } from './ProgressBar';
+//import { Carousel } from 'react-bootstrap';
+
 
 export const AuctionBody = () => {
   const [auction, setAuction] = useState(null);
   const { currentUser, globalMsg } = useContext(AuthContext);
   const { docs } = useFirestore('auctions');
-
+  //console.log(docs);
   return (
     <div className="py-5">
       <div className="container">
         {auction && <ProgressBar auction={auction} setAuction={setAuction} />}
-
         {globalMsg && <Alert variant="info">{globalMsg}</Alert>}
-
+        
         {currentUser && <AddAuction setAuction={setAuction} />}
 
         {docs && (
@@ -29,9 +30,8 @@ export const AuctionBody = () => {
         )}
       </div>
     </div>
-  );
-  
-}
+  ); 
+};
 
 
 

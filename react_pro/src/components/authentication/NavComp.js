@@ -3,6 +3,7 @@ import { AuthContext } from '../context/AuthContext';
 import { LoginComp } from './LoginComp';
 import { RegisterComp } from './RegisterComp';
 
+
 export const NavComp = () => {
   const { currentUser, logout } = useContext(AuthContext);
 
@@ -30,12 +31,14 @@ export const NavComp = () => {
               <>
                 <LoginComp />
                 <RegisterComp />
+                
               </>
-            )}
-          </div>
-        </div>
+              
+            )}           
+          </div>          
+        </div>        
       </div>
-    </nav>
+    </nav>   
   );
 };
 export default NavComp;

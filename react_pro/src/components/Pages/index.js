@@ -7,6 +7,7 @@ import Services from '../Services'
 import Navbar from '../navbar'
 import Sidebar from '../Sidebar'
 
+
 const Home = () => {
 
 const[isOpen, setIsOpen] = useState(false)

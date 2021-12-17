@@ -5,7 +5,6 @@ import { AuthContext } from '../context/AuthContext';
 export const AddAuction = ({ setAuction }) => {
   const [showForm, setShowForm] = useState(false);
   const [error, setError] = useState('');
-
   const itemTitle = useRef();
   const itemDesc = useRef();
   const startPrice = useRef();
@@ -43,7 +42,7 @@ export const AddAuction = ({ setAuction }) => {
 
     setAuction(newAuction);
     closeForm();
-  };
+    };
 
   return (
     <>
