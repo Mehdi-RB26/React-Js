@@ -47,10 +47,10 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/'>
-                            CAR Auction
+                            CAR AucTion
                         </SocialLogo>
-                        <WebsiteRights>CAR Auction ® {new Date().getFullYear()}
-                        All Rights Reserved.</WebsiteRights>
+                        <WebsiteRights>CAR AucTion ® {new Date().getFullYear()}
+                         All Rights Reserved.</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href="/" target="_blank"
                             arial-label="Facebook">

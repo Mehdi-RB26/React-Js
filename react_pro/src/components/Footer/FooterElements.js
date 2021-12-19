@@ -84,6 +84,7 @@ margin: 40px auto 0 auto;
 `
 
 export const SocialLogo = styled(Link)`
+font-family: 'Lobster', cursive;
 Color: #fff;
 justify-self: start;
 cursor: pointer;

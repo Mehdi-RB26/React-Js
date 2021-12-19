@@ -20,11 +20,11 @@ const Sidebar = ({toggle , isOpen}) => {
                         Services
                     </SidebarLink>
                     <SidebarLink to="signup" onClick={toggle}>
-                        Sign Up
+                        Try Us
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                <SidebarRoute to="/login">Sign In</SidebarRoute>
+                <SidebarRoute to="/Home2">Start Now</SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

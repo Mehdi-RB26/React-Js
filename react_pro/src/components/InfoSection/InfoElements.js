@@ -82,7 +82,16 @@ export const SubTitle = styled.p`
 `
 
 export const BtnWrap = styled.div`
+font-family: 'Lobster', cursive;
+color: #fff;
+justify-self: flex-start;
+cursor: pointer;
+font-size: 1.5rem;
 display: flex;
+aling-items: center;
+margin-left: 24px;
+font-weight: bold;
+text-decoration: none;
 justify-content: flex-start;
 `
 

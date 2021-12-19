@@ -1,14 +1,45 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import {AuctionBody} from '../auctions/Body'
 import NavComp from '../authentication/NavComp'
+import Crossfade from '../Carousel/crossfade';
 import { AuthProvider } from '../context/AuthContext';
+import Footer from '../Footer/index'
+import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+import '../Pages/Home2.css'
 
-export const home2 = () => {
+function Home2() {
+
+  const  [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 5000)
+  }, [])
+
+
   return (
-    <AuthProvider>
+    <>
+    {
+      loading ?
+      <div>
+      <div className='loading'>
+      <ClimbingBoxLoader color={"#fff"} loading={loading} size={25} />
+      
+      </div>
+      
+      </div>
+      :
+
+      <AuthProvider>
       <NavComp />  
-      <AuctionBody />     
-    </AuthProvider>   
+      <Crossfade />
+      <AuctionBody />    
+      <Footer /> 
+    </AuthProvider>
+    }
+    </>
   );
-};
-export default home2;
+}
+export default Home2;

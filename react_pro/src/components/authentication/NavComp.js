@@ -2,16 +2,19 @@ import React, { useContext } from 'react';
 import { AuthContext } from '../context/AuthContext';
 import { LoginComp } from './LoginComp';
 import { RegisterComp } from './RegisterComp';
+import '../authentication/NavComp.css'
+
 
 
 export const NavComp = () => {
   const { currentUser, logout } = useContext(AuthContext);
 
   return (
+    
     <nav className="container navbar sticky-top navbar-light bg-light">
-      <div className="container-fluid">
+      <div className="container-fluid"> 
         <div className="navbar-brand">
-          
+       <h1><a className='h1-nav' href='/'> Car AucTion </a> </h1> 
         </div>
         <div className="d-flex">
           <div className="col">

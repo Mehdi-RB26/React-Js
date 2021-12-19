@@ -1,0 +1,18 @@
+.h1-nav{
+    font-family: 'Lobster', cursive;
+    justify-self: flex-start;
+    cursor: pointer;
+    font-size: 3.5rem;   
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+}
+
+.btn{
+    font-family: 'Alfa Slab One', cursive;
+}

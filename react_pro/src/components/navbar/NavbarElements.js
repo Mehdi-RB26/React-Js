@@ -32,10 +32,11 @@ max-width: 1100px;
 `
 
 export const NavLogo = styled(LinkR)`
+font-family: 'Lobster', cursive;
 color: #fff;
 justify-self: flex-start;
 cursor: pointer;
-font-size: 1.5rem;
+font-size: 2.3rem;
 display: flex;
 aling-items: center;
 margin-left: 24px;
@@ -62,7 +63,8 @@ export const NavMenu = styled.ul`
 display: flex;
 align-items: center;
 list-style: none;
-margin-right: -22px;
+padding-top: 27px;
+margin-right: 100px;
 text-align: center;
 
 @media screen and (max-width: 768px) {
@@ -89,6 +91,8 @@ cursor: pointer;
 `
 
 export const NavBtn = styled.nav`
+padding-top: 25px;
+font-family: 'Alfa Slab One', cursive;
 display: flex;
 align-items: center;
 
@@ -98,6 +102,7 @@ align-items: center;
 `
 
 export const NavBtnLink = styled(LinkR)`
+font-family: 'Alfa Slab One', cursive;
 border-radius: 50px;
 background: #01bf71;
 white-space: nowrap;

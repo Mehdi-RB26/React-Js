@@ -69,11 +69,13 @@ cursor: pointer;
 `
 
 export const SideBtnWrap = styled.div`
+font-family: 'Alfa Slab One', cursive;
 display: flex;
 justify-content: center;
 `
 
 export const SidebarRoute = styled(LinkR)`
+font-family: 'Alfa Slab One', cursive;
 border-radius: 50px;
 background: #01bf71;
 white-space: nowrap;
