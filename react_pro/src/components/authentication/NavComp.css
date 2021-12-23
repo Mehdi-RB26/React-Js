@@ -5,7 +5,7 @@
     font-size: 3.5rem;   
     font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 
 }
 
@@ -16,3 +16,6 @@ h1{
 .btn{
     font-family: 'Alfa Slab One', cursive;
 }
+.nav-back {
+    background-color:  #101522;
+  }

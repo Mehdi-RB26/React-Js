@@ -1,14 +1,14 @@
 import React from 'react'
-import { Carousel } from 'react-bootstrap'
-
+import { Carousel, } from 'react-bootstrap'
 const Crossfade = () => {
-    return (
-        <>
-            <Carousel fade>
+
+  return (
+      <>
+<Carousel fade>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://www.prosys-group.com/images/upload/diaporama/vignette/diaporama-60.jpg"
+      src="caro1.png"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -19,7 +19,7 @@ const Crossfade = () => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://www.prosys-group.com/images/upload/diaporama/vignette/diaporama-60.jpg"
+      src="caro2.png"
       alt="Second slide"
     />
 
@@ -31,7 +31,7 @@ const Crossfade = () => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://www.prosys-group.com/images/upload/diaporama/vignette/diaporama-60.jpg"
+      src="caro3.png"
       alt="Third slide"
     />
 
@@ -41,8 +41,7 @@ const Crossfade = () => {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-        </>
-    )
+</>)
 }
 
 export default Crossfade
