@@ -3,7 +3,7 @@
 <br />
 <div align="center">
 
-  <img src="icona.png" alt="Logo" width="80" height="80">
+  <img src="public/icona.png" alt="Logo" width="80" height="80">
 
   <h3 align="center">Car-Auction</h3>
 
@@ -46,9 +46,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+<br>
 <img src="public/home.png" alt="main page">
-
+<br>
+We have vehicles for every budget and need – from family mini-vans, to sports cars, The selection varies from week to week, but there are always good, clean, used cars at excellent prices. Capital Auto Auction sells vehicles that are auctioned off by our professional independent auctioneers. The bargains are outrageous!!!
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
