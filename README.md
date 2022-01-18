@@ -3,7 +3,7 @@
 <br />
 <div align="center">
 
-  <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <img src="icona.png" alt="Logo" width="80" height="80">
 
   <h3 align="center">Car-Auction</h3>
 
@@ -47,7 +47,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="home.png" alt="main page">
+<img src="public/home.png" alt="main page">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
