@@ -12,7 +12,7 @@ const Crossfade = () => {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
+      <h3>You will find your dream car in simple clicks</h3>
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -24,7 +24,7 @@ const Crossfade = () => {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
+      <h3>Classic lover or sport lover ?</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -36,7 +36,7 @@ const Crossfade = () => {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
+      <h3>Prove em wrong and get your car NOW !</h3>
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>

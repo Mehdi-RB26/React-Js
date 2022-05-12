@@ -48,7 +48,7 @@ export const AddAuction = ({ setAuction }) => {
     <>
       <div className="col d-flex justify-content-center my-3">
         <div onClick={openForm} className="btn btn-outline-secondary mx-2">
-          + Auction
+          Add a Car
         </div>
       </div>
       <Modal centered show={showForm} onHide={closeForm}>
@@ -61,13 +61,13 @@ export const AddAuction = ({ setAuction }) => {
             <Row>
               <Col>
                 <Form.Group>
-                  <Form.Label>Item Title</Form.Label>
+                  <Form.Label>Car Title</Form.Label>
                   <Form.Control type="text" required ref={itemTitle} />
                 </Form.Group>
               </Col>
               <Col>
                 <Form.Group>
-                  <Form.Label>Item Description</Form.Label>
+                  <Form.Label>Car Description</Form.Label>
                   <Form.Control type="text" required ref={itemDesc} />
                 </Form.Group>
               </Col>
@@ -81,7 +81,7 @@ export const AddAuction = ({ setAuction }) => {
               </Col>
               <Col>
                 <Form.Group>
-                  <Form.Label>Item Duration in hours</Form.Label>
+                  <Form.Label>Car Duration in hours</Form.Label>
                   <Form.Control type="number" required ref={itemDuration} />
                 </Form.Group>
               </Col>
@@ -99,7 +99,7 @@ export const AddAuction = ({ setAuction }) => {
               </Col>
               <Col>
                 <Form.Group>
-                  <Form.Label>Item Image</Form.Label>
+                  <Form.Label>Car Image</Form.Label>
                   <Form.File
                     label="Select Item Image"
                     custom

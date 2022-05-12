@@ -46,7 +46,7 @@ const renderer = ({ days, hours, minutes, seconds, completed, props }) => {
                   Cancel Auction
                 </div>
               ) : props.owner.email === props.item.curWinner ? (
-                <p className="display-6">Winner</p>
+                <p className="display-6">You are now the owner</p>
               ) : (
                 <div
                   onClick={() =>
