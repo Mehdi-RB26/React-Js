@@ -13,7 +13,7 @@
     <a href="https://github.com/Mehdi-RB26/React-Js"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Mehdi-RB26/React-Js">View Demo</a>
+    <a href="http://localhost:3000">View Demo</a>
   </p>
 </div>
 
