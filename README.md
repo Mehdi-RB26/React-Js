@@ -94,6 +94,17 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    npm start
    ```
+
+### Bidding section
+
+After clicking on the green button (Start now !) on the top right corner in the landing page ! The bidding page will automatically appear
+
+<img src="public/Picture2.png" alt="main page">
+
+
+
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
