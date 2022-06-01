@@ -99,7 +99,25 @@ _Below is an example of how you can instruct your audience on installing and set
 
 After clicking on the green button (Start now !) on the top right corner in the landing page ! The bidding page will automatically appear
 
-<img src="public/Picture2.png" alt="main page">
+<img src="public/Picture2.png" alt="Bidding page">
+
+Like bidding website you must create an account and login to start your day :
+
+<img src="public/Picture3.png" alt="Register modal">
+
+<img src="public/Picture4.png" alt="Login modal">
+
+You will notice that a new button appears in the bidding section so you can add your car if you want to get rid of it of course :D
+
+<img src="public/Picture5.png" alt="Logedin page">
+
+<img src="public/Picture6.png" alt="AddCAR MODAL">
+
+And finally you can see your own cars and also other cars if you want to get a new ride ;)
+
+<img src="public/Picture7.png" alt="Auctioncars page">
+
+<img src="public/Picture8.png" alt="Auctioncars page">
 
 
 
