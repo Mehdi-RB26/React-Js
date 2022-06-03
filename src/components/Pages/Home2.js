@@ -1,11 +1,13 @@
 import React, {useState, useEffect} from 'react';
 import {AuctionBody} from '../auctions/Body'
 import NavComp from '../authentication/NavComp'
-import Crossfade from '../Carousel/crossfade';
+//import Crossfade from '../Carousel/crossfade';
 import { AuthProvider } from '../context/AuthContext';
 import Footer from '../Footer/index'
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import '../Pages/Home2.css'
+import ImageSlider from '../Carousel/ImageSlider';
+import { SliderData } from '../Carousel/SliderData';
 
 function Home2() {
 
@@ -15,7 +17,7 @@ function Home2() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 5000)
+    }, 3000)
   }, [])
 
 
@@ -34,7 +36,7 @@ function Home2() {
 
       <AuthProvider>
       <NavComp />  
-      <Crossfade />
+      <ImageSlider slides={SliderData}/>
       <AuctionBody />    
       <Footer /> 
     </AuthProvider>
