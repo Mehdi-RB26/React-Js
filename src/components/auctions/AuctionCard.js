@@ -23,9 +23,9 @@ const renderer = ({ days, hours, minutes, seconds, completed, props }) => {
 
         <div className="card-body">
           <p className="lead display-6">{props.item.title}</p>
-          <div className="d-flex jsutify-content-between align-item-center">
+          <div className="d-flex justify-content-between align-item-center">
             <h5>
-              {hours} hr: {minutes} min: {seconds} sec
+              {hours} hr: {minutes} min: {seconds} sec:
             </h5>
           </div>
           <p className="card-text">{props.item.desc}</p>
