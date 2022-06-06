@@ -7,7 +7,7 @@ import Footer from '../Footer/index'
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import '../Pages/Home2.css'
 //import ImageSlider from '../Carousel/ImageSlider';
-//import { SliderData } from '../Carousel/SliderData';
+import { SliderData } from '../Carousel/SliderData';
 
 function Home2() {
 
