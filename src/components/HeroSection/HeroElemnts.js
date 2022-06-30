@@ -3,7 +3,7 @@ import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md'
 
 
 export const HeroContainer = styled.div`
-  background: #0c0c0c;
+  background: #120423;
   disoplay: flex;
   justify-content: center;
   align-items: center;
@@ -45,22 +45,23 @@ export const HeroContainer = styled.div`
    height: 100%;
    -o-object-fit: cover;
    object-fit: cover;
-   background: #232a34;
+   opacity: 40%;
   `
 
   export const HeroContent = styled.div`
    z-index: 3;
    max-width: 12000px;
    position: absolute;
-   padding: 350px 590px;
+   padding: 350px 599px;
    display: flex;
    flex-direction: column;
    aling-items: center;
   `
 
   export const HeroH1 = styled.h1`
+  font-family: "Americorps";
    color: #fff;
-   font-size: 48px;
+   font-size: 45px;
    text-align: center;
  
 
@@ -72,6 +73,7 @@ export const HeroContainer = styled.div`
   } 
 `
 export const HeroP = styled.p`
+font-family: 'Arial';
 margin-top: 24px;
 color: #fff;
 font-size: 24px;

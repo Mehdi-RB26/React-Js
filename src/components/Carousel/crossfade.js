@@ -9,7 +9,7 @@ const Crossfade = () => {
 <Carousel fade>
   <Carousel.Item>
     <img
-      className="d-block w-150"
+      className="d-block w-100"
       src="caro1.png"
       alt="First slide"
     />

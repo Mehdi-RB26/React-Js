@@ -52,7 +52,8 @@ export const TextWrapper = styled.div`
 `
 
 export const TopLine = styled.p`
-    color: #01bf71;
+font-family: 'Arial';
+    color: #DB1962;
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
@@ -62,8 +63,9 @@ export const TopLine = styled.p`
 `
 
 export const Heading = styled.h1`
+    font-family: 'Americorps' ;
     margin-bottom: 24px;
-    font-size: 48px;
+    font-size: 40px;
     line-height: 1.1;
     font-weight: 600;
     color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
@@ -82,8 +84,8 @@ export const SubTitle = styled.p`
 `
 
 export const BtnWrap = styled.div`
-font-family: 'Lobster', cursive;
-color: #fff;
+font-family: 'Arial';
+color: #DB1962;
 justify-self: flex-start;
 cursor: pointer;
 font-size: 1.5rem;

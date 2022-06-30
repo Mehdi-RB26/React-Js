@@ -1,8 +1,8 @@
 import React, { useState, useEffect} from 'react'
-import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavbarElements';
+import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink, Span} from './NavbarElements';
 import {FaBars} from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib';
-import { animateScroll as scroll } from 'react-scroll';
+import WebFont from 'webfontloader';
 
 
 
@@ -18,12 +18,24 @@ const Navbar = ({ toggle}) => {
         }
     }
 
+
+    useEffect(() => {
+        WebFont.load({
+            google: {
+                families: ['Americorps']
+            }
+        });
+    }, []); 
+
     useEffect(() => {
             window.addEventListener('scroll', changeNav)
       }, [])
 
       const toggleHome = () => {
-          scroll.scrollToTop()
+          window.scrollTo({
+              top: 0,
+              behavior: "smooth",
+          });
       }
     
 
@@ -32,7 +44,7 @@ const Navbar = ({ toggle}) => {
         <IconContext.Provider value={{color: '#fff'}}>
         <Nav scrollNav={scrollNav}>
             <NavbarContainer>
-                <NavLogo to='/' onClick={toggleHome}>CAR AucTion</NavLogo>
+                        <NavLogo to='/' onClick={toggleHome}><Span>CAR</Span>AUCTION</NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>
@@ -40,7 +52,7 @@ const Navbar = ({ toggle}) => {
                     <NavItem>
                         <NavLinks to='about'
                         smooth={true}
-                        duration={500}
+                        duration={80}
                         spy={true}
                         exact='true'
                         offset={-80}                 
@@ -49,7 +61,7 @@ const Navbar = ({ toggle}) => {
                     <NavItem>
                         <NavLinks to='discover'
                         smooth={true}
-                        duration={500}
+                        duration={80}
                         spy={true}
                         exact='true'
                         offset={-80} 
@@ -58,7 +70,7 @@ const Navbar = ({ toggle}) => {
                     <NavItem>
                         <NavLinks to='services'
                         smooth={true}
-                        duration={500}
+                        duration={80}
                         spy={true}
                         exact='true'
                         offset={-80} 
@@ -67,7 +79,7 @@ const Navbar = ({ toggle}) => {
                     <NavItem>
                         <NavLinks to='signup'
                         smooth={true}
-                        duration={500}
+                        duration={80}
                         spy={true}
                         exact='true'
                         offset={-80} 
@@ -77,11 +89,11 @@ const Navbar = ({ toggle}) => {
                 <NavBtn>
                     <NavBtnLink to ="/Home2"
                     smooth={true}
-                    duration={500}
+                    duration={80}
                     spy={true}
                     exact='true'
                     offset={-80} 
-                    >Start Now !</NavBtnLink>
+                    >Start Now </NavBtnLink>
                 </NavBtn>
             </NavbarContainer>
         </Nav>

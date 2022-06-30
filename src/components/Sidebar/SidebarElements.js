@@ -63,7 +63,7 @@ color: #fff;
 cursor: pointer;
 
 &:hover {
-    color: #01bf71;
+    color: #DB1962;
     transition: 0.2s ease-in-out;
 }
 `
@@ -77,7 +77,7 @@ justify-content: center;
 export const SidebarRoute = styled(LinkR)`
 font-family: 'Alfa Slab One', cursive;
 border-radius: 50px;
-background: #01bf71;
+background: #DB1962;
 white-space: nowrap;
 padding: 16px 64px;
 color: #010606:

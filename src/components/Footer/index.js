@@ -1,8 +1,22 @@
-import React from 'react'
+import React ,{useEffect} from 'react';
 import { FooterContainer, FooterLinksWrapper, FooterWrap, FooterLinksContainer, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink } from './FooterElements'
 import {FaFacebook, FaInstagram, FaYoutube, FaTwitch} from 'react-icons/fa'
+import WebFont from 'webfontloader';
+
+
+
 
 const Footer = () => {
+
+
+    useEffect(() => {
+        WebFont.load({
+            google: {
+                families: ['Americorps']
+            }
+        });
+    }, []); 
+
     return (
         <FooterContainer>
             <FooterWrap>
@@ -47,7 +61,7 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/'>
-                            CAR AucTion
+                            CARAUCTION
                         </SocialLogo>
                         <WebsiteRights>CAR AucTion ® {new Date().getFullYear()}
                          All Rights Reserved.</WebsiteRights>

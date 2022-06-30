@@ -3,9 +3,13 @@ import {Link as LinkR} from 'react-router-dom'
 import {Link as LinkS} from 'react-scroll'
 
 
+
+
+
+
 export const Nav = styled.nav`
 background: ${({ scrollNav}) => (scrollNav ? '#0c0c0c' : 'transparent' )};
-height: 80px;
+height: 100px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -13,7 +17,7 @@ font-size: 1rem;
 position: sticky;
 top: 0;
 z-index: 10;
-margin-top: -80px;
+margin-top: -100px;
 
 
 @media screen and (max-width: 960px){
@@ -32,16 +36,33 @@ max-width: 1100px;
 `
 
 export const NavLogo = styled(LinkR)`
-font-family: 'Lobster', cursive;
+font-family: 'Americorps';
 color: #fff;
 justify-self: flex-start;
 cursor: pointer;
-font-size: 2.3rem;
+font-size: 2.5rem;
 display: flex;
 aling-items: center;
-margin-left: 24px;
+margin-left: -210px;
 font-weight: bold;
 text-decoration: none;
+
+&:hover {
+color: white;}
+`
+
+export const Span = styled.div`
+font-family: 'Americorps';
+color: #DB1962;
+justify-self: flex-start;
+cursor: pointer;
+font-size: 2.5rem;
+display: flex;
+aling-items: center;
+font-weight: bold;
+text-decoration: none;
+
+
 `
 
 export const MobileIcon = styled.div`
@@ -60,12 +81,18 @@ display: none;
 `
 
 export const NavMenu = styled.ul`
+
+font-family: 'Arial';
+font-size: 1.5em;
 display: flex;
 align-items: center;
 list-style: none;
 padding-top: 27px;
-margin-right: 100px;
+margin-right: 80px;
 text-align: center;
+
+&:hover {
+color: '#DB1962';}
 
 @media screen and (max-width: 768px) {
     display: none;
@@ -81,12 +108,15 @@ color: #fff;
 display: flex;
 align-items: center;
 text-decoration: none;
-padding: 0 1rem;
+padding: 0 1.3rem;
 height: 100%;
 cursor: pointer;
 
+&:hover {
+color: #DB1962 ;}
+
 &.active {
-    border-bottom: 3px solid #01bf71;
+    border-bottom: 3px solid #DB1962;
 }
 `
 
@@ -102,13 +132,16 @@ align-items: center;
 `
 
 export const NavBtnLink = styled(LinkR)`
-font-family: 'Alfa Slab One', cursive;
+font-family: 'Arial';
+font-weight: bold;
 border-radius: 50px;
-background: #01bf71;
+background: #DB1962;
 white-space: nowrap;
-padding: 10px 22px;
-color: #010606;
-font-size: 16px;
+margin-bottom: 10px;
+margin-right: -250px;
+padding: 10px 43px;
+color: #fff;
+font-size: 18px;
 outline: none;
 border: none;
 cursor: pointer;

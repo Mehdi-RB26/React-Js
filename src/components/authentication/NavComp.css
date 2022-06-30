@@ -1,12 +1,21 @@
 .h1-nav{
-    font-family: 'Lobster', cursive;
+    font-family: 'Americorps', cursive;
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 3.5rem;   
+    font-size: 2.5rem;   
     font-weight: bold;
     text-decoration: none;
     color: rgb(255, 255, 255);
 
+
+
+}
+
+.h1-nav:hover{
+
+            color: #fff;
+            transition: 0.3s ease-out
+        
 }
 
 h1{
@@ -17,5 +26,10 @@ h1{
     font-family: 'Alfa Slab One', cursive;
 }
 .nav-back {
-    background-color:  #101522;
+    background-color:  #000;
   }
+
+span{
+    font-family: 'americorps';
+    color: #DB1962;
+}

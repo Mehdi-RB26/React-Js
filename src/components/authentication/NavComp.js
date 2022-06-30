@@ -18,7 +18,7 @@ export const NavComp = () => {
         
       <div className="container-fluid"> 
         <div className="navbar-brand">
-       <h1><a className='h1-nav' href='/'> Car AucTion </a> </h1> 
+            <h1><a className='h1-nav' href='/'> <span> CAR</span>AUCTION </a> </h1> 
         </div>
         <div className="d-flex">
           <div className="col">

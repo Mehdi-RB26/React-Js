@@ -25,13 +25,14 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent data-Aos="fade-up">
-                <HeroH1>Car Auction Made Easy</HeroH1>
+                <HeroH1>Car auction made easy</HeroH1>
                 <HeroP>
                     Sign up for a new account today and receive a membership for 25% OFF.
+                    
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button 
-                    to="/login"
+                    
                     onMouseEnter={onHover}  
                     onMouseLeave={onHover}
                     primary="true"
