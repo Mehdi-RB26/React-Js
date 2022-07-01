@@ -22,9 +22,49 @@ h1{
     font-family: 'Pacifico', cursive;
 }
 
-.btn{
-    font-family: 'Alfa Slab One', cursive;
+.btn-outline-secondary{
+    font-family: 'Arial';
+    font-weight: bold !important;
+    color: #fff !important;
+    background-color: #DB1962 !important;
+    border-color: #DB1962 !important;
+    
 }
+
+.btn-outline-secondary:hover {
+
+    color: #000 !important;
+    border-color: #000 !important;
+    background-color: #fff !important;
+    transition: 0.3s ease-out
+}
+
+.btn-primary {
+    font-family: 'Arial';
+    font-weight: bold !important;
+    color: #fff !important;
+    background-color: #DB1962 !important;
+    border-color: #DB1962 !important;
+
+}
+
+.btn-primary:hover {
+
+    color: #000 !important;
+    border-color: #000 !important;
+    background-color: #fff !important;
+    transition: 0.3s ease-out
+}
+
+.modal-title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-control:hover {
+    box-shadow: #DB1962 !important;
+}
+
 .nav-back {
     background-color:  #000;
   }

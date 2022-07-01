@@ -37,7 +37,6 @@ function Home2() {
       <AuthProvider>
       <NavComp />  
       <Crossfade/>
-      
       <AuctionBody />    
       <Footer /> 
     </AuthProvider>
