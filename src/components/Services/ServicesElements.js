@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ServicesContainer = styled.div`
-height: 800px;
+height: 1000px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -61,6 +61,7 @@ margin-bottom: 10px;
 `
 
 export const ServicesH1 = styled.h1`
+font-family: 'Americorps';
 font-size: 2.5rem;
 color: #fff;
 margin-bottom: 64px;

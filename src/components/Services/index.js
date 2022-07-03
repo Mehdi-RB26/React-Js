@@ -16,13 +16,13 @@ const Services = () => {
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2} />
-                    <ServicesH2>Search for the best deals !</ServicesH2>
-                    <ServicesP>We help you to find the best cars to bet on em</ServicesP>
+                    <ServicesH2>Quick and easy !</ServicesH2>
+                    <ServicesP>In few clicks you can get the car you deserve</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon3} />
-                    <ServicesH2>Search for the best deals !</ServicesH2>
-                    <ServicesP>We help you to find the best cars to bet on em</ServicesP>
+                    <ServicesH2>Register in no time !</ServicesH2>
+                    <ServicesP>You dont need to add no credit cards to start bidding </ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>
