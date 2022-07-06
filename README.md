@@ -13,7 +13,7 @@
     <a href="https://github.com/Mehdi-RB26/React-Js"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://carauctions.netlify.app">View Demo</a>
+    <a href="https://carauction69.netlify.app">View Demo</a>
   </p>
 </div>
 
@@ -47,7 +47,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <br>
-<img src="public/home.png" alt="main page">
+<img src="public/1stpic.png" alt="main page">
 <br>
 We have vehicles for every budget and need – from family mini-vans, to sports cars, The selection varies from week to week, but there are always good, clean, used cars at excellent prices. Capital Auto Auction sells vehicles that are auctioned off by our professional independent auctioneers. The bargains are outrageous!!!
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -99,7 +99,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 After clicking on the green button (Start now !) on the top right corner in the landing page ! The bidding page will automatically appear
 
-<img src="public/Picture2.png" alt="Bidding page">
+<img src="public/auction1.png" alt="Bidding page">
 
 Like bidding website you must create an account and login to start your day :
 
