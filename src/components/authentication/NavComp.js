@@ -24,13 +24,13 @@ export const NavComp = () => {
           <div className="col">
             {currentUser ? (
               <>
-                <div className="btn btn-outline-secondary disabled">
+                <div className="btn btn-outline-secondary mx-2 disabled">
                   {currentUser.email.substring(0, currentUser.email.lastIndexOf("@"))}
                 </div>
                 <div
                   onClick={() => logout()}
                   className="btn btn-outline-secondary mx-2"
-                >
+                > 
                   Logout
                 </div>
               </>
