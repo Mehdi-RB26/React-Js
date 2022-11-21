@@ -47,7 +47,7 @@ export const AddAuction = ({ setAuction }) => {
   return (
     <>
       <div className="col d-flex justify-content-center my-3">
-        <div onClick={openForm} className="btn btn-outline-secondary mx-2">
+        <div onClick={openForm} id="addbtn" className="btn btn-outline-secondary mx-2">
           Add a Car
         </div>
       </div>
@@ -62,13 +62,13 @@ export const AddAuction = ({ setAuction }) => {
               <Col>
                 <Form.Group>
                   <Form.Label>Car Title</Form.Label>
-                  <Form.Control type="text" required ref={itemTitle} />
+                  <Form.Control id="title" type="text" required ref={itemTitle} />
                 </Form.Group>
               </Col>
               <Col>
                 <Form.Group>
                   <Form.Label>Car Description</Form.Label>
-                  <Form.Control type="text" required ref={itemDesc} />
+                  <Form.Control id="desc" type="text" required ref={itemDesc} />
                 </Form.Group>
               </Col>
             </Row>
@@ -76,13 +76,13 @@ export const AddAuction = ({ setAuction }) => {
               <Col>
                 <Form.Group>
                   <Form.Label>Start Price</Form.Label>
-                  <Form.Control type="number" required ref={startPrice} />
+                  <Form.Control id="price" type="number" required ref={startPrice} />
                 </Form.Group>
               </Col>
               <Col>
                 <Form.Group>
                   <Form.Label>Car Duration in hours</Form.Label>
-                  <Form.Control type="number" required ref={itemDuration} />
+                  <Form.Control id="time" type="number" required ref={itemDuration} />
                 </Form.Group>
               </Col>
             </Row>
@@ -101,6 +101,7 @@ export const AddAuction = ({ setAuction }) => {
                 <Form.Group>
                   <Form.Label>Car Image</Form.Label>
                   <Form.File
+                    id="image"
                     label="Select Item Image"
                     custom
                     required
@@ -114,7 +115,7 @@ export const AddAuction = ({ setAuction }) => {
             <Button variant="secondary" onClick={closeForm}>
               Cancel
             </Button>
-            <Button variant="primary" type="submit">
+            <Button id="submit" variant="primary" type="submit">
               Submit
             </Button>
           </Modal.Footer>

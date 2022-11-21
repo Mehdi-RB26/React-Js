@@ -32,7 +32,7 @@ export const RegisterComp = () => {
 
   return (
     <>
-      <div onClick={openForm} className="btn btn-outline-secondary mx-2">
+      <div onClick={openForm} id="register" className="btn btn-outline-secondary mx-2">
         Register
       </div>
       <Modal centered show={showForm} onHide={closeForm}>
@@ -44,22 +44,22 @@ export const RegisterComp = () => {
             {error && <Alert variant="danger">{error}</Alert>}
             <Form.Group>
               <Form.Label>Email Address</Form.Label>
-              <Form.Control type="email" required ref={emailRef} />
+              <Form.Control id="email" type="email" required ref={emailRef} />
             </Form.Group>
             <Form.Group>
               <Form.Label>Password</Form.Label>
-              <Form.Control type="password" required ref={passwordRef} />
+              <Form.Control id="password" type="password" required ref={passwordRef} />
             </Form.Group>
             <Form.Group>
               <Form.Label>Confirm Password</Form.Label>
-              <Form.Control type="password" required ref={cmfPasswordRef} />
+              <Form.Control id="confpass" type="password" required ref={cmfPasswordRef} />
             </Form.Group>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={closeForm}>
               Cancel
             </Button>
-            <Button variant="primary" type="submit">
+            <Button id="registerbtn" variant="primary" type="submit">
               Register
             </Button>
           </Modal.Footer>

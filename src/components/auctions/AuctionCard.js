@@ -52,7 +52,7 @@ const renderer = ({ days, hours, minutes, seconds, completed, props }) => {
                   onClick={() =>
                     props.bidAuction(props.item.id, props.item.curPrice)
                   }
-                  className="btn btn-outline-secondary"
+                  className="btn btn-outline-secondary" id="bid"
                 >
                   Bid
                 </div>
